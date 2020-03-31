@@ -311,7 +311,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 12%;
+  margin-top: 10%;
   padding: 20px;
 }
 
@@ -334,11 +334,49 @@ footer p {
    display: flex;
    flex-direction: row;
    justify-content: space-around;
-   background-color: #55555550;
+   background: rgb(56,56,57);
+   background: linear-gradient(90deg, rgba(56,56,57,0.3) 0%, rgba(54,54,59,0.3) 31%, rgba(255,255,255,0.3) 100%);
    padding: 20px;
    border-radius: 30px 0 30px 0;
 }
 
+.l2 {
+  border-radius: 0 30px 0 30px;
+}
+
 .small {
   width: 60px;
+}
+
+.info {
+  /* width: 50%; */
+}
+
+.info h2, .info h4 {
+  font-size: 28px;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid white; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing 4.5s steps(40, end),
+    blink-caret 1s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+
+.info h4 {
+  font-size: 18px;
+  margin-top: 10px;
 }
