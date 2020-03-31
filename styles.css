@@ -1,0 +1,344 @@
+body {
+  color: #45454d;
+  margin: 0;
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 18px;
+  background: url("images/background.jpg") no-repeat fixed 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Comfortaa';
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+.header1 {
+  /* padding-left: 10%; */
+  padding-right: 0;
+  margin-top: 17%;
+}
+
+.bio {
+  font-family: 'Comfortaa';
+  font-weight: bold;
+  font-size: 24px;
+  width: 60%;
+  line-height: 50px;
+}
+
+header h1, header h2 {
+
+  text-align: center;
+  font-size: 30px;
+  color: #FFFFFF;
+  font-family: 'Comfortaa';
+  font-weight: bold;
+
+}
+
+.button {
+  text-decoration: none;
+  font-size: 18px;
+  color: #b48484;
+
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.button:hover {
+  color: white;
+}
+
+.project1 img {
+
+  width: 70%;
+  margin: 0 auto;
+
+
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+ .bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+  font-family: 'Comfortaa';
+
+}
+
+.bar h3 a {
+  padding: 30px;
+  text-decoration: none;
+  color: #b48484;
+  font-size: 18px;
+}
+
+.bar h3 a:hover {
+  color: white;
+}
+a, .logo a {
+  text-decoration: none;
+  color: #b48484;
+}
+
+.logo {
+  font-size: 50px;
+  padding: 0px;
+  margin-top: 20px;
+
+}
+
+.proj {
+  background-color: #ffffff80;
+  padding: 10px;
+  color: black;
+  font-family: 'Comfortaa';
+  width: 45%;
+  height: 300px;
+  margin: 20px;
+
+}
+
+.sec1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+
+.proj h2 {
+  font-size: 32px;
+  background: -webkit-linear-gradient(#b48484, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  display: flex;
+  margin: 0 auto;
+  padding: 10px;
+
+
+}
+
+.proj h3 {
+  font-size: 16px;
+  color: #b48484;
+  padding: 0 10px;
+}
+
+.proj ul li {
+  padding: 4px;
+  text-decoration: none;
+  color: slategray;
+  font-weight:  bold;
+}
+
+
+
+.details {
+  display: none;
+  transition: opacity 1s ease-out;
+}
+
+.proj:hover .details {
+  display: block;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+.auro-intro img ,.creative img {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.c-div  {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.c-div button {
+  color: #b48484;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
+.a-bio {
+  width: 60%;
+  margin: 0 auto;
+  background-color: #00000080;
+  color: white;
+  padding: 20px;
+  border-radius: 30px 0 30px 0;
+}
+
+.process{
+
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.process img, video{
+  width: 60%;
+}
+
+.mobile-img1 {
+  height: 200px;
+  padding-top: 60px;
+  padding-left: 30px;
+}
+
+
+.scrollable {
+  height: 600px;
+ border:1px #fff;
+ overflow: scroll;
+ margin: 0;
+
+}
+.scrollable img{
+  width: 70%;
+  height: 2200px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.vision img {
+  height: 1500px;
+}
+.process div {
+
+  color: white;
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+.process div h3 {
+  margin: 0;
+}
+
+
+.list li {
+  padding: 10px 0;
+  font-size: 18px;
+}
+
+.dark h3, .dark p {
+  color: #333333;
+  font-size: 20px;
+  line-height: 25px;
+
+}
+
+.final {
+  text-align: center;
+  margin-top: 90px;
+  color: #fff;
+  font-size: 32px;
+}
+
+.dark {
+  padding-top: 10%;
+  margin-right: 40px;
+  margin-left: 0;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #b07474;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  color: #555;
+  opacity: 0.7;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 12%;
+  padding: 20px;
+}
+
+footer p {
+  color: white;
+  font-size: 14px;
+}
+
+.logos li img {
+  width: 50px;
+  z-index: 10;
+
+}
+
+.logos li {
+  list-style-type: none;
+}
+
+.logos {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   background-color: #55555550;
+   padding: 20px;
+   border-radius: 30px 0 30px 0;
+}
+
+.small {
+  width: 60px;
+}
